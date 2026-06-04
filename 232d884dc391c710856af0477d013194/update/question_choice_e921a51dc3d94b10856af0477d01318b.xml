@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Departamento">cca025d9c3d94b10856af0477d0131f2</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 20:47:38</sys_created_on>
+        <sys_id>e921a51dc3d94b10856af0477d01318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TI</sys_name>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name>question_choice_e921a51dc3d94b10856af0477d01318b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 20:47:38</sys_updated_on>
+        <text>TI</text>
+        <value>ti</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e921a51dc3d94b10856af0477d01318b"/>
+</record_update>

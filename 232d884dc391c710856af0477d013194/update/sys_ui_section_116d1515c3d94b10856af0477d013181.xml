@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Informações do solicitante" section_id="116d1515c3d94b10856af0477d013181" sys_domain="global" table="x_1319177_solici_0_lista_de_solicita_es" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-04 20:31:15</sys_created_on>
+            <sys_id>a56d1515c3d94b10856af0477d0131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Informações do solicitante" display_value="Informações do solicitante" name="x_1319177_solici_0_lista_de_solicita_es" sys_domain="global" view="Default view">116d1515c3d94b10856af0477d013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-04 20:31:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e_mail_do_solicitante</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-04 20:31:15</sys_created_on>
+            <sys_id>a96d1515c3d94b10856af0477d0131d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Informações do solicitante" display_value="Informações do solicitante" name="x_1319177_solici_0_lista_de_solicita_es" sys_domain="global" view="Default view">116d1515c3d94b10856af0477d013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-04 20:31:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-04 20:31:15</sys_created_on>
+            <sys_id>656d1515c3d94b10856af0477d0131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Informações do solicitante" display_value="Informações do solicitante" name="x_1319177_solici_0_lista_de_solicita_es" sys_domain="global" view="Default view">116d1515c3d94b10856af0477d013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-04 20:31:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>area_departamento</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-04 20:31:15</sys_created_on>
+            <sys_id>216d1515c3d94b10856af0477d0131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Informações do solicitante" display_value="Informações do solicitante" name="x_1319177_solici_0_lista_de_solicita_es" sys_domain="global" view="Default view">116d1515c3d94b10856af0477d013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-04 20:31:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Informações do solicitante</caption>
+            <header>false</header>
+            <name>x_1319177_solici_0_lista_de_solicita_es</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-04 20:31:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>116d1515c3d94b10856af0477d013181</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1319177_solici_0_lista_de_solicita_es</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+            <sys_update_name>sys_ui_section_116d1515c3d94b10856af0477d013181</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-04 20:31:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
