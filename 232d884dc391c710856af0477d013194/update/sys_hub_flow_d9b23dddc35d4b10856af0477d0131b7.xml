@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=389000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Quando o formulário for enviado, o usuário receberá um aviso no e-mail.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>solicitao_de_materiais</internal_name>
+        <label_cache>[{"name":"Created_1.current.numero_da_solicitacao","label":"Trigger - Record Created➛Lista de solicitações Record➛Número da solicitação","reference":"","reference_display":"Número da solicitação","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"numero_da_solicitacao","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":["ah_subject",null]}},{"name":"Created_1.current.e_mail_do_solicitante","label":"Trigger - Record Created➛Lista de solicitações Record➛E-mail do solicitante","reference":"","reference_display":"E-mail do solicitante","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"e_mail_do_solicitante","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Lista de solicitações Record","reference":"x_1319177_solici_0_lista_de_solicita_es","reference_display":"Lista de solicitações","type":"reference","base_type":"reference","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":["record"]},"attributes":{}},{"name":"Created_1.current.solicitante","label":"Trigger - Record Created➛Lista de solicitações Record➛Solicitante","reference":"","reference_display":"Solicitante","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"solicitante","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Lista de solicitações Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"status","choices":[{"image":"","label":"Aberto","used":false,"reference":false,"rawLabel":"Aberto","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Em análise","used":false,"reference":false,"rawLabel":"Em análise","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Aprovado","used":false,"reference":false,"rawLabel":"Aprovado","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Rejeitado","used":false,"reference":false,"rawLabel":"Rejeitado","selected":false,"missing":false,"value":"40","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Entregue","used":false,"reference":false,"rawLabel":"Entregue","selected":false,"missing":false,"value":"50","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Cancelado","used":false,"reference":false,"rawLabel":"Cancelado","selected":false,"missing":false,"value":"60","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.prioridade","label":"Trigger - Record Created➛Lista de solicitações Record➛Prioridade","reference":"","reference_display":"Prioridade","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"prioridade","choices":[{"image":"","label":"Baixa","used":false,"reference":false,"rawLabel":"Baixa","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Média","used":false,"reference":false,"rawLabel":"Média","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Alta","used":false,"reference":false,"rawLabel":"Alta","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.material_solicitado","label":"Trigger - Record Created➛Lista de solicitações Record➛Material solicitado","reference":"","reference_display":"Material solicitado","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"material_solicitado","choices":[{"image":"","label":"Caneta","used":false,"reference":false,"rawLabel":"Caneta","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Caderno","used":false,"reference":false,"rawLabel":"Caderno","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Mouse","used":false,"reference":false,"rawLabel":"Mouse","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Teclado","used":false,"reference":false,"rawLabel":"Teclado","selected":false,"missing":false,"value":"40","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Monitor","used":false,"reference":false,"rawLabel":"Monitor","selected":false,"missing":false,"value":"50","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Cadeira","used":false,"reference":false,"rawLabel":"Cadeira","selected":false,"missing":false,"value":"60","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Mesa","used":false,"reference":false,"rawLabel":"Mesa","selected":false,"missing":false,"value":"70","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Álcool em gel","used":false,"reference":false,"rawLabel":"Álcool em gel","selected":false,"missing":false,"value":"80","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Papel A4","used":false,"reference":false,"rawLabel":"Papel A4","selected":false,"missing":false,"value":"90","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Outro","used":false,"reference":false,"rawLabel":"Outro","selected":false,"missing":false,"value":"100","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.quantidade","label":"Trigger - Record Created➛Lista de solicitações Record➛Quantidade","reference":"","reference_display":"Quantidade","type":"integer","base_type":"integer","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"quantidade","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.area_departamento","label":"Trigger - Record Created➛Lista de solicitações Record➛Área/Departamento","reference":"","reference_display":"Área/Departamento","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"area_departamento","choices":[{"image":"","label":"RH","used":false,"reference":false,"rawLabel":"RH","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Financeiro","used":false,"reference":false,"rawLabel":"Financeiro","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"TI","used":false,"reference":false,"rawLabel":"TI","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Administrativo","used":false,"reference":false,"rawLabel":"Administrativo","selected":false,"missing":false,"value":"40","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Compras","used":false,"reference":false,"rawLabel":"Compras","selected":false,"missing":false,"value":"50","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Operações","used":false,"reference":false,"rawLabel":"Operações","selected":false,"missing":false,"value":"60","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.justificativa","label":"Trigger - Record Created➛Lista de solicitações Record➛Justificativa","reference":"","reference_display":"Justificativa","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"justificativa","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}}]</label_cache>
+        <master_snapshot>2434bd91c39d4b10856af0477d0131ec</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Solicitação de materiais</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>6434fd91c39d4b10856af0477d013127</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9b23dddc35d4b10856af0477d0131b7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Solicitação de materiais</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name>sys_hub_flow_d9b23dddc35d4b10856af0477d0131b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:58</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>4934fd91c39d4b10856af0477d0131a3</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1319177_solici_0_lista_de_solicita_es">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6434fd91c39d4b10856af0477d013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:52</sys_updated_on>
+        <table>x_1319177_solici_0_lista_de_solicita_es</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>d9b23dddc35d4b10856af0477d0131b7</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:52</sys_created_on>
+        <sys_id>3034fd91c39d4b10856af0477d013129</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:52</sys_updated_on>
+        <trigger display_value="">6434fd91c39d4b10856af0477d013127</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN3034fd91c39d4b10856af0477d013129"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN15b23dddc35d4b10856af0477d0131bc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d9b23dddc35d4b10856af0477d0131b7</id>
+        <name>Solicitação de materiais</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:21</sys_created_on>
+        <sys_id>15b23dddc35d4b10856af0477d0131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:04:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=15b23dddc35d4b10856af0477d0131bc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN05c2f9ddc31d4b10856af0477d0131e2,11c23111c39d4b10856af0477d0131c5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de materiais">d9b23dddc35d4b10856af0477d0131b7</model>
+        <model_id>d9b23dddc35d4b10856af0477d0131b7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d9b23dddc35d4b10856af0477d0131b7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:37</sys_created_on>
+        <sys_id>05c2f9ddc31d4b10856af0477d0131e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:07:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=05c2f9ddc31d4b10856af0477d0131e2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de materiais">d9b23dddc35d4b10856af0477d0131b7</model>
+        <model_id>d9b23dddc35d4b10856af0477d0131b7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d9b23dddc35d4b10856af0477d0131b7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:37</sys_created_on>
+        <sys_id>11c23111c39d4b10856af0477d0131c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:07:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=11c23111c39d4b10856af0477d0131c5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN81c23d19c3d94b10856af0477d01317f"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Solicitação de materiais">d9b23dddc35d4b10856af0477d0131b7</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:36</sys_created_on>
+        <sys_id>81c23d19c3d94b10856af0477d01317f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:50</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYW27jNhTdiqCvFkgBPew4zt80yaABphPU9rQfg1SgRNImSpOuRCnxDLKerqArmI31Ui/Lejh2rEydnyAiKd7Do3PPvfTnryZHPuHmpTlDPifmmcmEIqFAfLZeERhWetgTaKnnlkhgpGS4Ni9VGJMzk4ZyOSPLFUcKFlPEIxiUISaheWmfmQniMZmuo1sMO8H76Tb5nmY+Dc+Pnu3aY3s08iLJWcA8y+MsUsjDJB+B/0kEb2AWQaz17/mLH/QqAxOjWPXtn2//pguDBeM4JMK8/Hx/Zq5QCJGVRvW1NsU0tIAGaOwQK3Bt13Esy7kY2P6569sOdhGxLNiwTlPtKKqFrQ0P5FERgQkuKWoQGRKE7wRflysW8B0y0pboMWJfYPcLS6+jBLAHJJsrH72cmWw4WEgWkLuVYlJkIxnObFLyeCk+Zvg1p4SimKuCUxiJI9iPrDRkDSJHRKcL+TApAr5nIj1dPsllgHj5hJQKmR8r+BRAOGUcqPcybiIZhyn6yc3V3eTa++Pd7OqXm4k3uZnOJrdXs5tr8yk9l/d3rHfMEOZYvOw4T6UQ3jPC9QdEwJ+GjEIF5xJKwltRELKVehcolhTafDrb6P1KCsxSghqaD4qpaFvzBRG7RG9ZnbIPKhEL6f9581tT1tngYRI+P0cIE9QhYZ9WJFw9eQs01UJC9XS7xJyP7KPmgWX9T3rOreulcl5KTPj1ZjsTJudzEDgTq1hpth6QUJGnpIcw9io86qWA6Tl9Z2d7elbBYSzgBa/8Hk0dp7SV/Gm3BMVAQhbcpFvCPP2QbzmJhSHhw8EfI4hDoEYZhcXR2yWa54zSKeEkUBUR0E9R9elXFkVMzCuoy6ApB42YZTgQk1EcKYsdHRn8vs8kbpKe1MisJfPBmWzblPqEOtZI57FtuT61rZE1RBS7lhU4lUxugulEqWqSeJWMPiyfo1SMfA/p1SnOwVvVbNhLRsm2BgsStERy27jqB5rdEzRHQ6vZn3uQ/5WyzIavt9W562g9twEIJwjewPva4J4OSLl8AOt9gfv5KPhrHspY4Lod6T0NJozNCuOHnL8fe3RCKkOyG8D2ilPywA3thXCRWPfgfi61/TEZEAtMzwW/84fjsR8gh9LR+Yg4ds39NjBasb0J13tGbUmbXLscsFU4SZveDvC+IwA2fPBggMc7YC7MVv/L5t6G0z0siPAAapjejpuGN+cMLsz5XL/Z3gidbPL72IynF+NgCJf/YAS3Fsh4OiA+sgfOEI1H5+7FsJbxDSi7YKoWZr7LXSZaRymQDjf4lE2d1j39NWUbEaV0OTq8SgvoY9N3UBakUin1ZzFSU5Gh8VGKn24364wpgQKYXmj7Ktf7oNAf1nhdGL5Ui0a/AKF/hvGt0LrP7GDl5K5UNZEk22c9+kpFBhfDMXXbLYaO2yxmA6Yb5sm3F3tmSNKZa219xr6CT1rzprMxeIGEazKpdgw7Wpq+SLF7J8V5PVLco9uoIhc775EvAfuGSljaVxxTx3RM4klaNe9racCEAUEMRo38l0SCDX9tqAUBSjn0yxDQ0NGPde1qFWlCKRX8fYFkHXijmsGwkTdQp1eoalLo9wZM8AgNh25HPzyu34DbAD2D9+TL1sFZkbQl2c7addi+9T1bq1dFstuK2LMu9Xrq9uJ03Klby9Nzpz6+8Oy6v7egONGScv8flYdURWwfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN74e23511c39d4b10856af0477d013165"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de materiais">d9b23dddc35d4b10856af0477d0131b7</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:05:08</sys_created_on>
+        <sys_id>74e23511c39d4b10856af0477d013165</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:50</sys_updated_on>
+        <ui_id>18b532ff-8055-445b-bf1c-3ca15390ed03</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=74e23511c39d4b10856af0477d013165"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN3b24bd91c39d4b10856af0477d013107,3f24bd91c39d4b10856af0477d013108,7f24bd91c39d4b10856af0477d013105,7f24bd91c39d4b10856af0477d013107,b324bd91c39d4b10856af0477d013108,bf24bd91c39d4b10856af0477d013106,f324bd91c39d4b10856af0477d013107,f724bd91c39d4b10856af0477d013108"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.quantidade}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>3b24bd91c39d4b10856af0477d013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c0d206a3-a110-48bd-b982-4375be84a946</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.prioridade}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>3f24bd91c39d4b10856af0477d013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>95d8d048-c022-409f-9902-e4baf19a3164</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.justificativa}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>7f24bd91c39d4b10856af0477d013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>95cda2af-daf5-4e3b-8d87-755c8d881049</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>7f24bd91c39d4b10856af0477d013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d9455bd0-25b8-4b2e-a153-d9ebb5c1bc7a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.numero_da_solicitacao}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>b324bd91c39d4b10856af0477d013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b108ecfa-839d-4463-9a1f-170e7749bffa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.area_departamento}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>bf24bd91c39d4b10856af0477d013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>13dbdc69-6b77-4629-8816-596973bc1bad</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.solicitante}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>f324bd91c39d4b10856af0477d013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7036a6cf-8a4a-4a81-80c6-9fa1881d9c76</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d9b23dddc35d4b10856af0477d0131b7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.material_solicitado}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:48</sys_created_on>
+        <sys_id>f724bd91c39d4b10856af0477d013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d840ed0c-5677-4710-93dc-29d6f418d2d7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d9b23dddc35d4b10856af0477d0131b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:37</sys_created_on>
+        <sys_id>5dc23111c39d4b10856af0477d0131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:04:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d9b23dddc35d4b10856af0477d0131b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:04:37</sys_created_on>
+        <sys_id>d9c23111c39d4b10856af0477d0131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:04:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d9b23dddc35d4b10856af0477d0131b7"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>Quando o formulário for enviado, o usuário receberá um aviso no e-mail.</description>
+        <flow_priority/>
+        <internal_name>solicitao_de_materiais</internal_name>
+        <label_cache>[{"name":"Created_1.current.numero_da_solicitacao","label":"Trigger - Record Created➛Lista de solicitações Record➛Número da solicitação","reference":"","reference_display":"Número da solicitação","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"numero_da_solicitacao","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":["ah_subject",null]}},{"name":"Created_1.current.e_mail_do_solicitante","label":"Trigger - Record Created➛Lista de solicitações Record➛E-mail do solicitante","reference":"","reference_display":"E-mail do solicitante","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"e_mail_do_solicitante","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Lista de solicitações Record","reference":"x_1319177_solici_0_lista_de_solicita_es","reference_display":"Lista de solicitações","type":"reference","base_type":"reference","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":["record"]},"attributes":{}},{"name":"Created_1.current.solicitante","label":"Trigger - Record Created➛Lista de solicitações Record➛Solicitante","reference":"","reference_display":"Solicitante","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"solicitante","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Lista de solicitações Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"status","choices":[{"image":"","label":"Aberto","used":false,"reference":false,"rawLabel":"Aberto","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Em análise","used":false,"reference":false,"rawLabel":"Em análise","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Aprovado","used":false,"reference":false,"rawLabel":"Aprovado","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Rejeitado","used":false,"reference":false,"rawLabel":"Rejeitado","selected":false,"missing":false,"value":"40","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Entregue","used":false,"reference":false,"rawLabel":"Entregue","selected":false,"missing":false,"value":"50","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Cancelado","used":false,"reference":false,"rawLabel":"Cancelado","selected":false,"missing":false,"value":"60","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.prioridade","label":"Trigger - Record Created➛Lista de solicitações Record➛Prioridade","reference":"","reference_display":"Prioridade","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"prioridade","choices":[{"image":"","label":"Baixa","used":false,"reference":false,"rawLabel":"Baixa","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Média","used":false,"reference":false,"rawLabel":"Média","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Alta","used":false,"reference":false,"rawLabel":"Alta","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.material_solicitado","label":"Trigger - Record Created➛Lista de solicitações Record➛Material solicitado","reference":"","reference_display":"Material solicitado","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"material_solicitado","choices":[{"image":"","label":"Caneta","used":false,"reference":false,"rawLabel":"Caneta","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Caderno","used":false,"reference":false,"rawLabel":"Caderno","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Mouse","used":false,"reference":false,"rawLabel":"Mouse","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Teclado","used":false,"reference":false,"rawLabel":"Teclado","selected":false,"missing":false,"value":"40","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Monitor","used":false,"reference":false,"rawLabel":"Monitor","selected":false,"missing":false,"value":"50","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Cadeira","used":false,"reference":false,"rawLabel":"Cadeira","selected":false,"missing":false,"value":"60","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Mesa","used":false,"reference":false,"rawLabel":"Mesa","selected":false,"missing":false,"value":"70","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Álcool em gel","used":false,"reference":false,"rawLabel":"Álcool em gel","selected":false,"missing":false,"value":"80","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Papel A4","used":false,"reference":false,"rawLabel":"Papel A4","selected":false,"missing":false,"value":"90","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Outro","used":false,"reference":false,"rawLabel":"Outro","selected":false,"missing":false,"value":"100","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.quantidade","label":"Trigger - Record Created➛Lista de solicitações Record➛Quantidade","reference":"","reference_display":"Quantidade","type":"integer","base_type":"integer","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"quantidade","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.area_departamento","label":"Trigger - Record Created➛Lista de solicitações Record➛Área/Departamento","reference":"","reference_display":"Área/Departamento","type":"choice","base_type":"choice","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"area_departamento","choices":[{"image":"","label":"RH","used":false,"reference":false,"rawLabel":"RH","selected":false,"missing":false,"value":"10","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Financeiro","used":false,"reference":false,"rawLabel":"Financeiro","selected":false,"missing":false,"value":"20","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"TI","used":false,"reference":false,"rawLabel":"TI","selected":false,"missing":false,"value":"30","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Administrativo","used":false,"reference":false,"rawLabel":"Administrativo","selected":false,"missing":false,"value":"40","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Compras","used":false,"reference":false,"rawLabel":"Compras","selected":false,"missing":false,"value":"50","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}},{"image":"","label":"Operações","used":false,"reference":false,"rawLabel":"Operações","selected":false,"missing":false,"value":"60","parameters":{"name":"x_1319177_solici_0_lista_de_solicita_es","dependent_values":[""]}}],"usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}},{"name":"Created_1.current.justificativa","label":"Trigger - Record Created➛Lista de solicitações Record➛Justificativa","reference":"","reference_display":"Justificativa","type":"string","base_type":"string","parent_table_name":"x_1319177_solici_0_lista_de_solicita_es","column_name":"justificativa","usedInstances":{"18b532ff-8055-445b-bf1c-3ca15390ed03":[null]}}]</label_cache>
+        <master>true</master>
+        <name>Solicitação de materiais</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Solicitação de materiais">d9b23dddc35d4b10856af0477d0131b7</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2434bd91c39d4b10856af0477d0131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2434bd91c39d4b10856af0477d0131ec^sys_idNOT INa434bd91c39d4b10856af0477d0131ed"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2434bd91c39d4b10856af0477d0131ec</id>
+        <name>Solicitação de materiais</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>a434bd91c39d4b10856af0477d0131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a434bd91c39d4b10856af0477d0131ed"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2434bd91c39d4b10856af0477d0131ec^sys_idNOT IN2434bd91c39d4b10856af0477d0131ff,a034bd91c39d4b10856af0477d0131ef"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de materiais">2434bd91c39d4b10856af0477d0131ec</model>
+        <model_id>2434bd91c39d4b10856af0477d0131ec</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2434bd91c39d4b10856af0477d0131ec</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>2434bd91c39d4b10856af0477d0131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2434bd91c39d4b10856af0477d0131ff"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de materiais">2434bd91c39d4b10856af0477d0131ec</model>
+        <model_id>2434bd91c39d4b10856af0477d0131ec</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2434bd91c39d4b10856af0477d0131ec</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>a034bd91c39d4b10856af0477d0131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a034bd91c39d4b10856af0477d0131ef"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2434bd91c39d4b10856af0477d0131ec^sys_idNOT INe434fd91c39d4b10856af0477d013117"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Solicitação de materiais">2434bd91c39d4b10856af0477d0131ec</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>e434fd91c39d4b10856af0477d013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYW27jNhTdiqCvFkgBPew4zt80yaABphPU9rQfg1SgRNImSpOuRCnxDLKerqArmI31Ui/Lejh2rEydnyAiKd7Do3PPvfTnryZHPuHmpTlDPifmmcmEIqFAfLZeERhWetgTaKnnlkhgpGS4Ni9VGJMzk4ZyOSPLFUcKFlPEIxiUISaheWmfmQniMZmuo1sMO8H76Tb5nmY+Dc+Pnu3aY3s08iLJWcA8y+MsUsjDJB+B/0kEb2AWQaz17/mLH/QqAxOjWPXtn2//pguDBeM4JMK8/Hx/Zq5QCJGVRvW1NsU0tIAGaOwQK3Bt13Esy7kY2P6569sOdhGxLNiwTlPtKKqFrQ0P5FERgQkuKWoQGRKE7wRflysW8B0y0pboMWJfYPcLS6+jBLAHJJsrH72cmWw4WEgWkLuVYlJkIxnObFLyeCk+Zvg1p4SimKuCUxiJI9iPrDRkDSJHRKcL+TApAr5nIj1dPsllgHj5hJQKmR8r+BRAOGUcqPcybiIZhyn6yc3V3eTa++Pd7OqXm4k3uZnOJrdXs5tr8yk9l/d3rHfMEOZYvOw4T6UQ3jPC9QdEwJ+GjEIF5xJKwltRELKVehcolhTafDrb6P1KCsxSghqaD4qpaFvzBRG7RG9ZnbIPKhEL6f9581tT1tngYRI+P0cIE9QhYZ9WJFw9eQs01UJC9XS7xJyP7KPmgWX9T3rOreulcl5KTPj1ZjsTJudzEDgTq1hpth6QUJGnpIcw9io86qWA6Tl9Z2d7elbBYSzgBa/8Hk0dp7SV/Gm3BMVAQhbcpFvCPP2QbzmJhSHhw8EfI4hDoEYZhcXR2yWa54zSKeEkUBUR0E9R9elXFkVMzCuoy6ApB42YZTgQk1EcKYsdHRn8vs8kbpKe1MisJfPBmWzblPqEOtZI57FtuT61rZE1RBS7lhU4lUxugulEqWqSeJWMPiyfo1SMfA/p1SnOwVvVbNhLRsm2BgsStERy27jqB5rdEzRHQ6vZn3uQ/5WyzIavt9W562g9twEIJwjewPva4J4OSLl8AOt9gfv5KPhrHspY4Lod6T0NJozNCuOHnL8fe3RCKkOyG8D2ilPywA3thXCRWPfgfi61/TEZEAtMzwW/84fjsR8gh9LR+Yg4ds39NjBasb0J13tGbUmbXLscsFU4SZveDvC+IwA2fPBggMc7YC7MVv/L5t6G0z0siPAAapjejpuGN+cMLsz5XL/Z3gidbPL72IynF+NgCJf/YAS3Fsh4OiA+sgfOEI1H5+7FsJbxDSi7YKoWZr7LXSZaRymQDjf4lE2d1j39NWUbEaV0OTq8SgvoY9N3UBakUin1ZzFSU5Gh8VGKn24364wpgQKYXmj7Ktf7oNAf1nhdGL5Ui0a/AKF/hvGt0LrP7GDl5K5UNZEk22c9+kpFBhfDMXXbLYaO2yxmA6Yb5sm3F3tmSNKZa219xr6CT1rzprMxeIGEazKpdgw7Wpq+SLF7J8V5PVLco9uoIhc775EvAfuGSljaVxxTx3RM4klaNe9racCEAUEMRo38l0SCDX9tqAUBSjn0yxDQ0NGPde1qFWlCKRX8fYFkHXijmsGwkTdQp1eoalLo9wZM8AgNh25HPzyu34DbAD2D9+TL1sFZkbQl2c7addi+9T1bq1dFstuK2LMu9Xrq9uJ03Klby9Nzpz6+8Oy6v7egONGScv8flYdURWwfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2434bd91c39d4b10856af0477d0131ec^sys_idNOT IN6c34fd91c39d4b10856af0477d013114"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de materiais">2434bd91c39d4b10856af0477d0131ec</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>6c34fd91c39d4b10856af0477d013114</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <ui_id>18b532ff-8055-445b-bf1c-3ca15390ed03</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c34fd91c39d4b10856af0477d013114"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2434bd91c39d4b10856af0477d0131ec^sys_idNOT IN2034fd91c39d4b10856af0477d013118,2c34fd91c39d4b10856af0477d013118,6834fd91c39d4b10856af0477d013118,6c34fd91c39d4b10856af0477d013117,a434fd91c39d4b10856af0477d013118,a834fd91c39d4b10856af0477d013117,e034fd91c39d4b10856af0477d013118,ec34fd91c39d4b10856af0477d013118"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.quantidade}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>2034fd91c39d4b10856af0477d013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c0d206a3-a110-48bd-b982-4375be84a946</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.material_solicitado}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>2c34fd91c39d4b10856af0477d013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d840ed0c-5677-4710-93dc-29d6f418d2d7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.numero_da_solicitacao}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>6834fd91c39d4b10856af0477d013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b108ecfa-839d-4463-9a1f-170e7749bffa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.area_departamento}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>6c34fd91c39d4b10856af0477d013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>13dbdc69-6b77-4629-8816-596973bc1bad</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>a434fd91c39d4b10856af0477d013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d9455bd0-25b8-4b2e-a153-d9ebb5c1bc7a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.justificativa}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>a834fd91c39d4b10856af0477d013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>95cda2af-daf5-4e3b-8d87-755c8d881049</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.solicitante}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>e034fd91c39d4b10856af0477d013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7036a6cf-8a4a-4a81-80c6-9fa1881d9c76</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2434bd91c39d4b10856af0477d0131ec</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.prioridade}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>ec34fd91c39d4b10856af0477d013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>95d8d048-c022-409f-9902-e4baf19a3164</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2434bd91c39d4b10856af0477d0131ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>e034fd91c39d4b10856af0477d013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2434bd91c39d4b10856af0477d0131ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:51</sys_created_on>
+        <sys_id>e434bd91c39d4b10856af0477d0131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2434bd91c39d4b10856af0477d0131ec"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d9b23dddc35d4b10856af0477d0131b7</sys_id>
+        <latest_snapshot>2434bd91c39d4b10856af0477d0131ec</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d9b23dddc35d4b10856af0477d0131b7^sys_idNOT IN7c34fd91c39d4b10856af0477d01312b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>d9b23dddc35d4b10856af0477d0131b7</plan_id>
+        <snapshot>2434bd91c39d4b10856af0477d0131ec</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 22:10:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c34fd91c39d4b10856af0477d01312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 22:10:52</sys_updated_on>
+        <trigger display_value="">6434fd91c39d4b10856af0477d013127</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d9b23dddc35d4b10856af0477d0131b7"/>
+</record_update>
