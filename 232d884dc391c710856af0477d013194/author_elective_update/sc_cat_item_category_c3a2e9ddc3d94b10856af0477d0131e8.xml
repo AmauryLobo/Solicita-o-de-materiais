@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Solicitação de materiais">812fd119c3d94b10856af0477d013194</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 20:54:17</sys_created_on>
+        <sys_id>c3a2e9ddc3d94b10856af0477d0131e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Solicitação de materiais</sys_name>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_update_name>sc_cat_item_category_c3a2e9ddc3d94b10856af0477d0131e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 20:54:17</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</application>
+        <file_path/>
+        <instance_id>be28c119fb786ed40c92f633beefdca4</instance_id>
+        <instance_name>dev321173</instance_name>
+        <name>sc_cat_item_category_c3a2e9ddc3d94b10856af0477d0131e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitação de materiais">812fd119c3d94b10856af0477d013194</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-04 20:54:17</sys_created_on><sys_id>c3a2e9ddc3d94b10856af0477d0131e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Solicitação de materiais</sys_name><sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package><sys_policy/><sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope><sys_update_name>sc_cat_item_category_c3a2e9ddc3d94b10856af0477d0131e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-04 20:54:17</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1644792215</payload_hash>
+        <record_name>Services.Solicitação de materiais</record_name>
+        <reverted_from/>
+        <source>7f2d884dc391c710856af0477d0131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 20:54:17</sys_created_on>
+        <sys_id>83a2e9ddc3d94b10856af0477d0131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e946a57e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 20:54:17</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>4fa2e9dd84d94b105e0682daf17e38ed</update_guid>
+        <update_guid_history>4fa2e9dd84d94b105e0682daf17e38ed:-1644792215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Solicitação de materiais">dfc5ed55c31d4b10856af0477d013193</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 21:07:58</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>04c19afe5cdf48e88046f83ee1337e40</sys_id>
+        <sys_metadata>c3a2e9ddc3d94b10856af0477d0131e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Solicitação de materiais</sys_name>
+        <sys_package display_value="Solicitação de materiais" source="x_1319177_solici_0">232d884dc391c710856af0477d013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de materiais">232d884dc391c710856af0477d013194</sys_scope>
+        <sys_scope_delete display_value="">1dd321ca9fa9487885b7bde94b3b6e11</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c3a2e9ddc3d94b10856af0477d0131e8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c3a2e9ddc3d94b10856af0477d0131e8">83a2e9ddc3d94b10856af0477d0131ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 21:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
